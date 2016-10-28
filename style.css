@@ -1,0 +1,29 @@
+h1 {color:  blue;}
+h2 {color:  cornflowerblue;}
+
+.profilfoto{
+        display: inline-block;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        transition: 1s;}
+
+.profilfoto:hover {box-shadow: 0 0 5px 10px red;
+                   filter: grayscale(100%)}
+
+#btnAddMe{
+        background-color: #3B5998;
+        border-style: solid;
+        border-color: gray;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        width:  9p0x;
+        height: 25px;
+        border-radius: 3px;}
+
+#searchbox {border-radius: 4px;}
+
+#searchbox:focus {background-color: lightgreen;}
